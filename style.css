@@ -587,3 +587,16 @@ img{
     text-align: center;
   }
 }
+
+.social-icons-wrapper {
+  display: flex;
+  justify-content: center; /* 로고들을 수평으로 가운데 정렬 */
+  align-items: center;     /* 로고들을 수직으로 가운데 정렬 */
+  gap: 10px;               /* 로고들 사이 간격 조정 */
+}
+
+.social-icons-wrapper img {
+  width: 40px;  /* 로고 크기 조정 */
+  height: auto;
+}
+
